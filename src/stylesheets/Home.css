@@ -1,0 +1,45 @@
+.home-container {
+  display: flex;
+  justify-content: center; /* Center the entire container horizontally */
+  align-items: center; /* Center the entire container vertically */
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.home-container > div:first-child {
+  flex: 3;
+  padding: 0 10% 0 10%; /* Add padding only on the left and right of the first child */
+}
+
+.home-container > div:last-child {
+  flex: 2;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align the container to the left horizontally */
+  text-align: left; /* Ensure text is always left-aligned */
+}
+
+.home-container h1,
+.home-container p {
+  max-width: 50%; /* Set the maximum width to 50% */
+}
+
+.home-container h1 {
+  margin: 0 0 0px 0; /* Adjust margin for top and bottom, 10px bottom margin */
+}
+
+.intro-text {
+  margin-top: 7px;
+}
+
+/* .home-container h1 {
+  
+} */
+
+.my-picture {
+  width: 100%;
+  /* Add any other styles you need for your picture */
+}
