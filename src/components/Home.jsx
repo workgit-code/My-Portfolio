@@ -34,7 +34,7 @@ function Home() {
             <p>Lorem ipsum dolor sit amet</p>
           </div>
         </div>
-        <div>
+        <div className="picture-placeholder">
           <img src={MyPicture} className="my-picture" />
         </div>
       </div>
@@ -68,6 +68,10 @@ function Home() {
             <p>Complete project coming soon</p>
           </div>
         </div>
+      </div>
+      {/* WANT TO GET IN TOUCH? */}
+      <div className="get-in-touch">
+      <h1>Want to get in touch?</h1>
       </div>
     </div>
   );

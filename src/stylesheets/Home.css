@@ -8,6 +8,7 @@
   align-items: center; /* Center the entire container vertically */
   background-color: white;
   border: 1px solid #ccc;
+  border-bottom: #ccc;
 }
 
 .home-container > div:first-child {
@@ -43,7 +44,16 @@
   
 } */
 
+/* make sure that the size of the div and the size of the picture are mathcing */
+.picture-placeholder {
+  display: inline-block;
+  vertical-align: top;
+}
+
 .my-picture {
+  display: inline-block;
+  vertical-align: top;
   width: 100%;
+  height: auto;
   /* Add any other styles you need for your picture */
 }

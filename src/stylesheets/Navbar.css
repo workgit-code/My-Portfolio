@@ -1,8 +1,9 @@
 .navbar-items {
   display: flex;
   align-items: center;
-  top: 0;
+  /* make the navbar stick with these 2 lines */
   position: sticky;
+  top: 0;
   /* width: 100%; */
   margin: 0;
   padding-left: 20px;
