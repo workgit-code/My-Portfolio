@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../stylesheets/Home.css";
 import "../stylesheets/MyProjects.css";
 import MyPicture from "../images/MyPicture.jpg";
@@ -44,11 +45,17 @@ function Home() {
 
         <div className="projects">
           {/* Project 1 */}
-          <div className="item">
-            <img src={BoschMockUp} alt="Image 1" />
-            <h3>Internship at Bosch Security Systems</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
+          <Link
+            to="/boschproject"
+            style={{ color: "inherit", textDecoration: "none" }}
+          >
+            <div className="item">
+              <img src={BoschMockUp} alt="Image 1" />
+              <h3>Internship at Bosch Security Systems</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </Link>
+
           {/* Project 2 */}
           <div className="item">
             <img src={SimacMockUp} alt="Image 1" />
@@ -69,9 +76,13 @@ function Home() {
           </div>
         </div>
       </div>
-      {/* WANT TO GET IN TOUCH? */}
-      <div className="get-in-touch">
-      <h1>Want to get in touch?</h1>
+      {/* MY SERVICES? */}
+      <div className="my-services">
+        <h1>My services</h1>
+      </div>
+      {/* WANT TO WORK TOGETHER? */}
+      <div className="want-to-work-together">
+        <h1>Want to create an awesome project together?</h1>
       </div>
     </div>
   );

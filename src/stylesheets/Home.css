@@ -57,3 +57,25 @@
   height: auto;
   /* Add any other styles you need for your picture */
 }
+
+.my-services {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding-left: 2%;
+  padding-right: 2%;
+  max-width: 100%; /* Ensure it takes the full width of the parent */
+  border-bottom: #ccc;
+}
+
+.my-services h1 {
+  border-bottom: 2px solid #000; /* Add a 2px solid black line under the h1 */
+  padding-bottom: 20px;
+}
+
+.want-to-work-together {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding-left: 2%;
+  padding-right: 2%;
+  max-width: 100%; /* Ensure it takes the full width of the parent */
+}
