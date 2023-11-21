@@ -1,0 +1,42 @@
+.projects-container {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding-left: 2%;
+  padding-right: 2%;
+  max-width: 100%; /* Ensure it takes the full width of the parent */
+  border-bottom: #ccc;
+  padding-bottom: 20px;
+}
+
+.projects-container h1 {
+  border-bottom: 2px solid #000; /* Add a 2px solid black line under the h1 */
+  padding-bottom: 20px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 130px; /* Adjust the gap as needed */
+  /* padding: 20px; */
+  justify-items: center; /* Center items horizontally */
+}
+
+.projects img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Updated CSS for responsiveness */
+.item {
+  text-align: center;
+  max-width: 100%; /* Set a maximum width to prevent overflow */
+  /* padding: 10px; */
+  /* width: 100%; */
+}
+
+/* Updated CSS to flex items in a column on smaller screens */
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr; /* Switch to a single column layout on small screens */
+  }
+}

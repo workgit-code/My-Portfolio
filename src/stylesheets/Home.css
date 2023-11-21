@@ -1,0 +1,101 @@
+.main-container {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.home-container {
+  display: flex;
+  justify-content: center; /* Center the entire container horizontally */
+  align-items: center; /* Center the entire container vertically */
+  background-color: white;
+  border: 1px solid #ccc;
+  border-bottom: #ccc;
+}
+
+.home-container > div:first-child {
+  flex: 3;
+  padding: 0 10% 0 10%; /* Add padding only on the left and right of the first child */
+}
+
+.home-container > div:last-child {
+  flex: 2;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align the container to the left horizontally */
+  text-align: left; /* Ensure text is always left-aligned */
+}
+
+.home-container h1,
+.home-container p {
+  max-width: 50%; /* Set the maximum width to 50% */
+}
+
+.home-container h1 {
+  margin: 0 0 0px 0; /* Adjust margin for top and bottom, 10px bottom margin */
+}
+
+.intro-text {
+  margin-top: 7px;
+  line-height: 22px;
+}
+
+/* .home-container h1 {
+  
+} */
+
+/* make sure that the size of the div and the size of the picture are mathcing */
+.picture-placeholder {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.my-picture {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+  /* Add any other styles you need for your picture */
+}
+
+.my-services {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding-left: 2%;
+  padding-right: 2%;
+  max-width: 100%; /* Ensure it takes the full width of the parent */
+  padding-bottom: 20px;
+}
+
+.my-services h1 {
+  border-bottom: 2px solid #000; /* Add a 2px solid black line under the h1 */
+  padding-bottom: 20px;
+}
+
+.my-services-options {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+.service {
+  background-color: #ffe6f9;
+  padding: 0 2rem;
+}
+
+.service h3 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+  margin-bottom: 15%;
+}
+
+.want-to-work-together {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding-left: 2%;
+  padding-right: 2%;
+  max-width: 100%; /* Ensure it takes the full width of the parent */
+}
