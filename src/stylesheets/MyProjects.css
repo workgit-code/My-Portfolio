@@ -5,6 +5,7 @@
   padding-right: 2%;
   max-width: 100%; /* Ensure it takes the full width of the parent */
   border-bottom: #ccc;
+  padding-bottom: 20px;
 }
 
 .projects-container h1 {

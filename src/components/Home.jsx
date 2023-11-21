@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../stylesheets/Home.css";
 import "../stylesheets/MyProjects.css";
@@ -8,6 +8,7 @@ import SimacMockUp from "../images/SimacMockUp.jpg";
 import SkatrixxMockUp from "../images/SkatrixxMockUp.jpg";
 // credits image: https://www.studiozelden.com/cases/swapfiets/
 import Swapfiets from "../images/Swapfiets.jpg";
+// import DecorativeRectangle from "..images/DecorativeRectangle.jpg"
 
 function Home() {
   return (
@@ -57,17 +58,27 @@ function Home() {
           </Link>
 
           {/* Project 2 */}
-          <div className="item">
-            <img src={SimacMockUp} alt="Image 1" />
-            <h3>Creating a better Onboarding experience</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
+          <Link
+            to="/onboardingproject"
+            style={{ color: "inherit", textDecoration: "none" }}
+          >
+            <div className="item">
+              <img src={SimacMockUp} alt="Image 1" />
+              <h3>Creating a better Onboarding experience</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </Link>
           {/* Project 3 */}
-          <div className="item">
-            <img src={SkatrixxMockUp} alt="Image 1" />
-            <h3>Building an app for Skaters</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
+          <Link
+            to="/skatrixxproject"
+            style={{ color: "inherit", textDecoration: "none" }}
+          >
+            <div className="item">
+              <img src={SkatrixxMockUp} alt="Image 1" />
+              <h3>Building an app for Skaters</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </Link>
           {/* Project 4 */}
           <div className="item">
             <img src={Swapfiets} alt="Image 1" />
@@ -79,11 +90,37 @@ function Home() {
       {/* MY SERVICES? */}
       <div className="my-services">
         <h1>My services</h1>
+        <div className="my-services-options">
+          <div className="service">
+            <h3>Content creator</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation
+            </p>
+          </div>
+          <div className="service">
+            <h3>UX/UI designer</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation
+            </p>
+          </div>
+          <div className="service">
+            <h3>Web developer</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation
+            </p>
+          </div>
+        </div>
       </div>
       {/* WANT TO WORK TOGETHER? */}
-      <div className="want-to-work-together">
+      {/* <div className="want-to-work-together">
         <h1>Want to create an awesome project together?</h1>
-      </div>
+      </div> */}
     </div>
   );
 }

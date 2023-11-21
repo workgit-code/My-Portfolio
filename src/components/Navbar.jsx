@@ -1,23 +1,23 @@
-import React, { useState } from "react";
-import { NavbarData } from "./NavbarData.jsx";
+// Navbar.js
+import React from "react";
+import { Link } from "react-router-dom";
 import "../stylesheets/Navbar.css";
 
-function Navbar() {
-  const [state, setState] = useState(false);
+function Navbar({}) {
   return (
     <nav className="navbar-items">
-      <div className="menu-icons" onClick={() => setState(!state)}></div>
-      <h1>Portfolio</h1>
-      <ul className={state ? "nav-menu active" : "nav-menu"}>
-        {NavbarData.map((item, index) => {
-          return (
-            <li key={index}>
-              <a href={item.url} className={item.cName}>
-                <li>{item.title}</li>
-              </a>
-            </li>
-          );
-        })}
+      <div className="menu-icons"></div>
+      <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
+        <h1>Portfolio</h1>
+      </Link>
+      <ul className="nav-menu">
+        <Link
+          to="projects"
+          style={{ color: "inherit", textDecoration: "none" }}
+        >
+          <li>Projects</li>
+        </Link>
+        <li>Resume</li>
       </ul>
     </nav>
   );

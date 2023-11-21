@@ -38,6 +38,7 @@
 
 .intro-text {
   margin-top: 7px;
+  line-height: 22px;
 }
 
 /* .home-container h1 {
@@ -64,12 +65,31 @@
   padding-left: 2%;
   padding-right: 2%;
   max-width: 100%; /* Ensure it takes the full width of the parent */
-  border-bottom: #ccc;
+  padding-bottom: 20px;
 }
 
 .my-services h1 {
   border-bottom: 2px solid #000; /* Add a 2px solid black line under the h1 */
   padding-bottom: 20px;
+}
+
+.my-services-options {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+.service {
+  background-color: #ffe6f9;
+  padding: 0 2rem;
+}
+
+.service h3 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+  margin-bottom: 15%;
 }
 
 .want-to-work-together {
