@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 // Projects pages/components
 import Home from "./components/Home";
-import Projects from "./components/Projects"
+import Projects from "./components/Projects";
 import BoschProject from "./components/BoschProject";
 import OnboardingProject from "./components/OnboardingProject";
 import SkatrixxProject from "./components/SkatrixxProject";

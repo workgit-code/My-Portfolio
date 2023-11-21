@@ -7,10 +7,8 @@ function Footer() {
   return (
     <footer>
       <div className="footer-container">
-        <h1>Let's connect</h1>
-        <p>
-          I would love to hear from you, to create awesome projects together
-        </p>
+        <h1>Let's create awesome projects together!</h1>
+        <p>I would love to hear from you...</p>
         {/* <FontAwesomeIcon icon={faLinkedin} style={{ color: "#000000" }} />
         <FontAwesomeIcon icon={faEnvelope} style={{ color: "#000000" }} /> */}
       </div>
