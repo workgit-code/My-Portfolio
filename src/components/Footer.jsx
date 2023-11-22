@@ -8,7 +8,8 @@ function Footer() {
     <footer>
       <div className="footer-container">
         <h1>Let's create awesome projects together!</h1>
-        <p>I would love to hear from you...</p>
+        <p>Email: sesiltasim@gmail.com</p>
+        <p>Phone: +31 6 27 91 86 47</p>
         {/* <FontAwesomeIcon icon={faLinkedin} style={{ color: "#000000" }} />
         <FontAwesomeIcon icon={faEnvelope} style={{ color: "#000000" }} /> */}
       </div>

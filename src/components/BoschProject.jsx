@@ -83,30 +83,87 @@ function BoschProject() {
       </div>
       <div className="text-container">
         <h2>The What: Prototyping and Solutions</h2>
-        <p className="stage-explanation-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
         <img src={BoschHighFiPrototype} className="image-portfolio"></img>
+        <p className="stage-explanation-text">
+          In redesigning the Edit Characteristics page, my goal was to enhance
+          the definition and editing of product types. To avoid errors, I
+          revamped the layout, introducing dropdown menus for single options and
+          checkboxes for multiple choices. The design allows for future
+          expansion in characteristics and business units through a tabs menu.
+        </p>
+        <p className="stage-explanation-text">
+          Critical to the redesign was error prevention, ensuring a seamless
+          user experience. For instance, the design dynamically grays out
+          irrelevant options based on user selections. A dialog window now
+          provides immediate feedback after clicking the update button,
+          confirming the defined product type and addressing potential issues.
+        </p>
+        <p className="stage-explanation-text">
+          The result is a more streamlined and user-friendly Edit
+          Characteristics page, offering clearer feedback and accommodating
+          future growth. You can see the page below:
+        </p>
         <img src={PCCEditProductChar1} className="image-portfolio"></img>
+        <p className="stage-explanation-text">
+          The Home page design serves as a visual representation of the
+          software's core functions, addressing user confusion. Reporting
+          buttons act as shortcuts, efficiently collecting key functionalities.
+          To streamline user interaction, prefiltering within a 6-month to
+          1-year period is implemented.
+        </p>
+        <p className="stage-explanation-text">
+          A vital feature is risk management, tracking expiring requirements.
+          The Home page provides a concise overview with colored date
+          indications, ensuring users are promptly informed. The result is a
+          functional and intuitive Home page, emphasizing key features for
+          efficient user engagement and risk management.
+        </p>
         <img src={PCCHomePage} className="image-portfolio"></img>
       </div>
       <div className="text-container">
         <h2>Coding</h2>
         <p className="stage-explanation-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          While working on the front end, I encountered new tools like
+          Bitbucket, TortoiseGit, and Redux. Understanding the existing code,
+          especially with Redux, posed a challenge. I delved into articles and
+          videos to get a grip on Redux, sought help from colleagues, and
+          invested extra time to understand the code better.
         </p>
+        <p className="stage-explanation-text">
+          Technically, I used React with Redux to handle global states
+          efficiently. Material UI helped create sleek front-end graphics, using
+          grid containers and Box elements for scalability across different
+          screens. I referred to the Material UI documentation for guidance
+          (https://mui.com/material-ui/getting-started/overview/).
+        </p>
+        Each task involved creating branches, getting feedback through pull
+        requests on Bitbucket, making improvements, and deploying the updated
+        code to a live server for users to see the latest version of the front
+        end tool.
       </div>
       <div className="text-container">
         <h2>End result</h2>
         <p className="stage-explanation-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          In wrapping up this project, I want to express gratitude for the
+          guidance from my mentors. My focus centered on improving the usability
+          of the Edit Characteristics and Home pages.
         </p>
-      </div>
-      <div className="text-container">
-        <h2>More projects</h2>
+        <p className="stage-explanation-text">
+          For the Edit Characteristics page, enhancements include organized
+          categories, preventing wrong combinations, and saving/pre-loading
+          data. The Home page now provides clarity on the tool's purpose and key
+          functionalities.
+        </p>
+        <p className="stage-explanation-text">
+          Adhering to Bosch Design Guidelines, the redesigned Products page
+          ensures a professional and cohesive look. Notably, users can now click
+          on Characteristic labels to edit them directly.
+        </p>
+        <p className="stage-explanation-text">
+          These improvements collectively aim to provide a more intuitive and
+          user-friendly experience for PCC users, facilitating smoother data
+          monitoring and manipulation.
+        </p>
       </div>
     </div>
   );

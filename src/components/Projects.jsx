@@ -52,11 +52,16 @@ function Projects() {
             </div>
           </Link>
           {/* Project 4 */}
-          <div className="item">
-            <img src={Swapfiets} alt="Image 1" />
-            <h3>International Marketing: expand a successful brand </h3>
-            <p>Complete project coming soon</p>
-          </div>
+          <Link
+            to="/marketingproject"
+            style={{ color: "inherit", textDecoration: "none" }}
+          >
+            <div className="item">
+              <img src={Swapfiets} alt="Image 1" />
+              <h3>International Marketing: expand a successful brand </h3>
+              <p>Complete project coming soon</p>
+            </div>
+          </Link>
         </div>
       </div>
     </div>

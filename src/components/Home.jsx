@@ -8,7 +8,7 @@ import SimacMockUp from "../images/SimacMockUp.jpg";
 import SkatrixxMockUp from "../images/SkatrixxMockUp.jpg";
 // credits image: https://www.studiozelden.com/cases/swapfiets/
 import Swapfiets from "../images/Swapfiets.jpg";
-// import DecorativeRectangle from "..images/DecorativeRectangle.jpg"
+
 
 function Home() {
   return (
@@ -21,12 +21,11 @@ function Home() {
           <h1>& Services marketer</h1>
           <div className="intro-text">
             <p>Hey there! 🌍 </p>
-            <p>I'm Sesil.</p>
             <p>
-              I am originally from Bulgaria and I've spent over three years
-              living and studying in the vibrant city of Eindhoven, Netherlands.
-              I always knew that working on creating content gave me a big sense
-              of purpose and connection to the world.
+              I'm Sesil. I am originally from Bulgaria and I've spent over three
+              years living and studying in the vibrant city of Eindhoven,The
+              Netherlands. I always knew that working on creating content gave
+              me a big sense of purpose and connection to the world.
             </p>
             <p>
               What sets my work apart is the infusion of emotions into my design
@@ -88,11 +87,16 @@ function Home() {
             </div>
           </Link>
           {/* Project 4 */}
-          <div className="item">
-            <img src={Swapfiets} alt="Image 1" />
-            <h3>International Marketing: expand a successful brand </h3>
-            <p>Complete project coming soon</p>
-          </div>
+          <Link
+            to="/marketingproject"
+            style={{ color: "inherit", textDecoration: "none" }}
+          >
+            <div className="item">
+              <img src={Swapfiets} alt="Image 1" />
+              <h3>International Marketing: expand a successful brand </h3>
+              <p>Complete project coming soon</p>
+            </div>
+          </Link>
         </div>
       </div>
       {/* MY SERVICES? */}
@@ -102,25 +106,29 @@ function Home() {
           <div className="service">
             <h3>Content creator</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation
+              I have a passion for creating content - posters, Instagram stories
+              or posts, videography, and photography. I also contribute to a
+              student association in the Marketing team, where I mostly focus on
+              social media platfoms.
             </p>
           </div>
           <div className="service">
             <h3>UX/UI designer</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation
+              From designing fun and gamified apps to visualizing data in
+              complex software, I have had experience in creating various
+              interfaces for different users. Combining the study of user
+              behavior with creative design, I bring ideas to life in awesome
+              projects.
             </p>
           </div>
           <div className="service">
             <h3>Web developer</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation
+              To me, coding is fun when I can visually see what is changing on
+              the screen. That's why I stuck with front-end development and
+              built a couple of projects using HTML, CSS, JavaScript, React,
+              Node.js and Express.js etc.
             </p>
           </div>
         </div>

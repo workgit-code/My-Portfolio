@@ -17,7 +17,9 @@ function Navbar({}) {
         >
           <li>Projects</li>
         </Link>
-        <li>Resume</li>
+        <Link to="/resume" style={{ color: "inherit", textDecoration: "none" }}>
+          <li>Resume</li>
+        </Link>
       </ul>
     </nav>
   );

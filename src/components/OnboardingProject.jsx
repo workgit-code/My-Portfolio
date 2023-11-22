@@ -23,8 +23,11 @@ function OnboardingProject() {
       <div className="text-container">
         <h2>About</h2>
         <p className="stage-explanation-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          In my sixth semester at Fontys University of Applied Sciences, my team
+          of 5 worked on a group project for SimacIT. They brought us a specific
+          problem to tackle, and the process described below is mostly about my
+          contributions to the project. We woked with the Agile development
+          methodology: Scrumban and we cycled through Sprints of 2 weeks.
         </p>
       </div>
       {/* THE PROBLEM */}
